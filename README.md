@@ -3,12 +3,6 @@
 基于环境噪声 Rayleigh 波 **ZH 振幅比** 的三维 S 波速度（Vs）反演程序。  
 项目使用 Fortran 实现，支持真实数据反演与合成数据检验（checkerboard/恢复测试）。
 
-## Description（可直接用于 GitHub 仓库简介）
-
-**3D ZH-ratio inversion for shear-wave velocity structure using adaptive spatial weighting, Tikhonov regularization, and LSMR solver (Fortran/OpenMP).**
-
-中文版本：  
-**基于 ZH 振幅比的三维 Vs 反演程序，包含自适应空间加权、Tikhonov 正则化与 LSMR 稀疏求解（Fortran/OpenMP）。**
 
 ## 主要功能
 
