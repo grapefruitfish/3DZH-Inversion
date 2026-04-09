@@ -1,0 +1,59 @@
+======================================
+ZH inversion run log
+Start time: 20260409 215720.935
+======================================
+Mode                : SYNTHETIC TEST
+True model file     : MOD.true
+Synthetic noise     :     0.0000
+ZH data path        : /public/home/xiangyy/Project_ZHv2.0/datasets_Yunnan/ZHdata
+Grid (nx,ny,nz)     :     55     65     14
+Origin (goxd,gozd)  :    30.8000    96.0000
+Spacing (dvxd,dvzd) :     0.2000     0.2000
+Vs range            :     1.5000     4.5000
+Max iteration       :     10
+Tik order           :      1
+Reg weight          :     0.2000
+Direction flag      :      0
+Adaptive radius min :     0.3150
+Output prefix       : syn_
+======================================
+Number of ZH stations:        343
+Total ZH data points :       5585
+obsZH source         : syntheticZH from MOD.true
+======================================
+Iteration log
+iter    RMS_ZH      m_total      nar
+--------------------------------------
+   1      0.111279      150480     1162702
+Saved model file     : syn_model_iter1.dat
+--------------------------------------
+   2      0.055395      150480     1156062
+Saved model file     : syn_model_iter2.dat
+--------------------------------------
+   3      0.020005      150480     1155715
+Saved model file     : syn_model_iter3.dat
+--------------------------------------
+   4      0.014233      150480     1156191
+Saved model file     : syn_model_iter4.dat
+--------------------------------------
+   5      0.011572      150480     1156120
+Saved model file     : syn_model_iter5.dat
+--------------------------------------
+   6      0.009736      150480     1156328
+Saved model file     : syn_model_iter6.dat
+--------------------------------------
+   7      0.008338      150480     1156345
+Saved model file     : syn_model_iter7.dat
+--------------------------------------
+   8      0.007278      150480     1156253
+Saved model file     : syn_model_iter8.dat
+--------------------------------------
+   9      0.006450      150480     1156290
+Saved model file     : syn_model_iter9.dat
+--------------------------------------
+  10      0.005774      150480     1156253
+Saved model file     : syn_model_iter10.dat
+--------------------------------------
+======================================
+End time: 20260409 220601.108
+Run finished successfully.

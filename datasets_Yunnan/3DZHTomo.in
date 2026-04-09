@@ -1,0 +1,15 @@
+@ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+@ INPUT PARAMETERS
+@ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+/public/home/xiangyy/Project_ZHv2.0/datasets_Yunnan/ZHdata    @: ZH data file
+55 65 14                         @: nx ny nz (grid number in lat lon and depth direction)
+30.8  96.0                       @: goxd gozd (upper left point,[lat,lon])
+0.2 0.2                          @: dvxd dvzd (grid interval in lat and lon direction)
+1.5 4.5                          @: minimum velocity, maximum velocity (a priori information)
+10                               @: maximum iteration
+1                                @: 1st order Tikhonov regularization
+0.2                              @: weight for regularization
+0                                @: 0=all direction, 1=x, 2=y, 3=z
+0                                @: synthetic_flag (1=yes, others=no)
+0.315                            @: minimum adaptive radius
+0.00                             @: synthetic noise level
