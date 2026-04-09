@@ -1,6 +1,6 @@
 # 3DZH-Inversion
 
-基于环境噪声 Rayleigh 波 **ZH 振幅比** 的三维 S 波速度（Vs）反演程序。  
+基于 Rayleigh 波 **ZH 振幅比** 的三维 S 波速度（Vs）反演程序。  
 项目使用 Fortran 实现，支持真实数据反演与合成数据检验（checkerboard/恢复测试）。
 
 
